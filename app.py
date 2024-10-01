@@ -8,7 +8,7 @@ def healthcheck():
     return {"status": "ok"}, 200
 
 @app.route('/health', methods=['GET'])
-def healthcheck():
+def health():
     return {"status": "ok"}, 200
 
 @app.route('/', methods=['GET'])
